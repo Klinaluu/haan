@@ -57,7 +57,7 @@ export const VIDEO_SRC = "assets/video/video.mp4"; // khách gửi .mov dọc 10
 // (vẫn còn đủ hiệu ứng nhảy/bấm nút). Tự tắt khi phát video, tự nhỏ lại một chút mỗi lần nhảy.
 export const MUSIC_SRC = "assets/audio/bgm.mp3";
 // Ảnh ở màn hình mở đầu (ảnh dọc kiểu photobooth rất hợp). Để "" thì hiện khung trống.
-export const TITLE_PHOTO = "assets/photos/title.jpg"; // khách gửi "ảnh mở đầu game.jpg"
+export const TITLE_PHOTO = "assets/photos/title.jpg"; // khách gửi "ảnh mở đầu game.jpg" (ảnh instax, đã cắt bỏ khung trắng)
 // true  = luôn vẽ khung ảnh trống kèm chữ hướng dẫn (dùng cho bản demo)
 // false = mốc nào chưa có ảnh thì không treo khung
 export const SHOW_EMPTY_PHOTO_FRAMES = false; // bản khách: mốc chưa có ảnh thì không treo khung
